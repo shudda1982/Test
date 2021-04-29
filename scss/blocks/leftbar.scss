@@ -1,0 +1,19 @@
+.left-bar {
+  background-color: $scarlet;
+  border: 1px solid $gray;
+  border-radius: 5px;
+  width:200px;
+  margin-right: 40px;
+  padding: 30px 15px;
+
+  p{
+    padding: 5px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-bar{
+
+    margin: 20px auto;
+  }
+}

@@ -1,0 +1,17 @@
+/**
+* Основные стили
+**/
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.container{
+  @include min-max(320px, 100%, 0);
+  background-color:$scarlet;
+}
+.wrap {
+  @include min-max(320px, 1024px, 15px);
+}
+
+
